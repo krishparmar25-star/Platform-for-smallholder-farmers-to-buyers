@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Smallholder Farmers Platform</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f7f7f7;
+}
+
+
+header {
+background: #4caf50;
+color: #fff;
+padding: 20px;
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+}
+
+
+nav {
+display: flex;
+justify-content: center;
+gap: 20px;
+background: #388e3c;
+padding: 10px;
+}
+
+
+nav a {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+}
+
+
+nav a:hover {
+text-decoration: underline;
+}
+
+
+.hero {
+padding: 50px;
+text-align: center;
+background: #e8f5e9;
+}
+
+
+.hero h2 {
+font-size: 32px;
+margin-bottom: 10px;
+}
+
+
+.hero p {
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+
+.btn-primary {
+padding: 12px 25px;
+background: #4caf50;
+color: white;
+border: none;
+font-size: 18px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+.btn-primary:hover {
+background: #43a047;
+}
+
+
+.section-title {
+text-align: center;
+font-size: 26px;
+margin: 40px 0 20px;
+}
+
+
+.product-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.product {
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+
+.product img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+
+footer {
+background: #2e7d32;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<header>PLATFORM FOR SMALLHOLDER FARMERS TO BUYERS</header>
+
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+<a href="about.html">About Us</a>
+<a href="sdg.html">SDG</a>
+</nav>
+
+
+
+<section class="hero" id="home">
+<h2>Connecting Farmers Directly to Buyers</h2>
+<p>Empowering smallholder farmers with a fair marketplace.</p>
+</section>
+
+
+<h2 class="section-title">Available Products</h2>
+<section class="product-grid" id="products">
+<div class="product">
+<img src="tomato.webp" alt="Tomatoes" />
+<h3>Fresh Tomatoes</h3>
+<p>Price: ₹25/kg</p>
+</div>
+<div class="product">
+<img src="potatoes.jpg" alt="Potatoes" />
+<h3>Organic Potatoes</h3>
+<p>Price: ₹30/kg</p>
+</div>
+<div class="product">
+<img src="onion.jpeg" alt="Onions" />
+<h3>Red Onions</h3>
+<p>Price: ₹28/kg</p>
+</div>
+</section>
+
+
+<footer id="contact">
+Contact us: support@farmmarket.com | © 2025 Farmers Marketplace
+</footer>
+
+
+<script>
+function scrollToProducts() {
+document.getElementById("products").scrollIntoView({ behavior: "smooth" });
+}
+</script>
+</body>
+</html>
